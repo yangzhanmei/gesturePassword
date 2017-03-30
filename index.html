@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gesturePassword</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./gesturePassword.css">
+</head>
+<body onresize="window.location.reload()">
+<div>
+    <div id="header">
+        <h3>手势密码</h3>
+    </div>
+    <div>
+        <div id="page">
+            <canvas id="myCanvas">
+            </canvas>
+        </div>
+        <div id="information" style='text-align: center'>
+            <h4>请输入手势密码</h4>
+        </div>
+        <div id="select">
+            <div class="input"><input type="radio" name="radio" id="setting" value="设置密码" checked/><span>设置密码</span>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <div class="input"><input type="radio" name="radio" id="verify" value="验证密码"
+                                      onclick="verifyPassword()"/><span>验证密码</span></div>
+        </div>
+    </div>
+</div>
+<script src="gesturePassword.js"></script>
+</body>
+</html>
