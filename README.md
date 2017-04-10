@@ -21,4 +21,4 @@
 运行
 <br/>
 <br/>
-可以访问`https://yangzhanmei.github.io/gesturePassword/index.html%60`
+可以访问https://yangzhanmei.github.io/gesturePassword/index.html%60
