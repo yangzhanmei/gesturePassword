@@ -1,6 +1,8 @@
 介绍
 <br/>
-移动端手势密码
+<br/>
+    移动端手势密码
+<br/>
 <br/>
 整体思路
 * 渲染出页面（即header和提示信息以及设置密码和验证密码
@@ -18,4 +20,5 @@
 <br/>
 运行
 <br/>
-可以访问`https://yangzhanmei.github.io/gesturePassword/index.html`
+<br/>
+     可以访问`https://yangzhanmei.github.io/gesturePassword/index.html`
