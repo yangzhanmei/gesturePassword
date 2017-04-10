@@ -1,8 +1,8 @@
-####介绍
+介绍
 <br/>
 移动端手势密码
 <br/>
-####整体思路
+整体思路
 * 渲染出页面（即header和提示信息以及设置密码和验证密码
 * 监测屏幕大小，获取`canvas`的宽和高，然后画出一张空白的`canvas`画布
 * 计算出九个点的位置，然后将x , y 和是否被点击`isTouched`存在数组`array`中
@@ -16,6 +16,6 @@
 * 第二次输入手势密码时，判断输入次数，然后再进行和第一次一样的画图，并把触摸过的圈记录在`haveTouched`里面，然后对比`firstHaveTouched`和`haveTouched`，如果一样则将数据存在`localStorage`里面，并更新提示信息为`密码设置成功`，反之更新提示信息为`两次输入不一致`
 * 验证密码，点击验证密码时将画布重绘成刚开始的九个小圈，然后将所有的数组清空，然后画手势密码等与之前相同，获取到`haveTouched`数组之后与`localStorage`里面所存数据进行比对，如果相同则更新提示信息为`密码正确！`，反之更新提示信息为`输入密码不正确！`
 <br/>
-####运行
+运行
 <br/>
-可以访问`https://yangzhanmei.github.io/gesturePassword/index.html`看到效果
+可以访问`https://yangzhanmei.github.io/gesturePassword/index.html`
