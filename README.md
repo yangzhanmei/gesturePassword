@@ -1,7 +1,7 @@
 介绍
 <br/>
 <br/>
-    移动端手势密码
+移动端手势密码
 <br/>
 <br/>
 整体思路
@@ -21,4 +21,4 @@
 运行
 <br/>
 <br/>
-     可以访问`https://yangzhanmei.github.io/gesturePassword/index.html`
+可以访问https://yangzhanmei.github.io/gesturePassword/index.html
